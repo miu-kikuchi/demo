@@ -47,9 +47,5 @@ class StringUtilsTest {
 	void test3() {
 		String result = StringUtils.toSnakeCase("practiceJunit");
 		assertEquals("practice_junit", result, "practice_junit_error");
-		
 	}
-	
-	
-
 }
